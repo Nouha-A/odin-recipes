@@ -3,20 +3,47 @@
     color: rgba(0, 0, 0, 0.897);
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 img {
     height: auto;
-    width: 250px;
+    width: 500px;
+    display: block;
+    border: 5px solid plum;
+   margin-left: auto;
+   margin-right: auto;
 }
 h1 {
     font-size: 36px;
     color: darkorchid;
     text-align: center;
 }
-h3 {
-background-color: pink;
+.container {
+    text-align: center;
+}
+ul{
+    list-style-type: square;
+}
+.title {
 font-size: 30px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-align: center;
+display: inline-block;
+border: 5px dotted rgba(247, 30, 66, 0.651);
+background-color: lightpink;
+padding: 5px;
+}
+.content {
+    padding: 5px;
+    margin: 20px 50px 20px;
+    padding: 40px;
+    display: block;
+    border: 5px solid plum;
+
+}
+#Recipes-list {
+    display: inline-block;
+    border: 5px solid plum;
+    padding: 10px 30px 10px;
+    /*text-align: center;*/
+    margin-left: auto;
+   margin-right: auto;
+    
 }
